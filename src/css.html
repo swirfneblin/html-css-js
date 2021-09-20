@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="Access-Control-Allow-Origin" content="*">
+  <title>Introdução HTML, CSS e javascript</title>
+  <link rel="icon" href="imagens/favicon.png">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/site.css">
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Crimson+Text:400,400italic,600">
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+</head>
+
+<body>
+  <main>
+    <h1 class="titulo-principal">CSS</h1>
+    <div class="container">
+
+      <div id="accordion">
+
+        <div class="card mb-2">
+          <div class="card-header" id="h0">
+            <h5 class="mb-0" class="btn" data-toggle="collapse" data-target="#c0" aria-expanded="true"
+              aria-controls="c0">Aplicando estilização em seu HTML
+            </h5>
+          </div>
+
+          <div id="c0" class="collapse show" aria-labelledby="h0" data-parent="#accordion">
+            <div class="card-body">
+              <p>
+                Cascading Style Sheets (folha de estilos em cascata) é uma linguagem de codificação para alterar
+                o estilo de uma página web, desse modo sua aparência pode ser modificada em aspectos como espaçamento,
+                fontes, alturas, margens, cores, imagens. <br>
+                <a target="_blank" href="https://www.w3c.br/divulgacao/guiasreferencia/css2/">Guia de Referência</a>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="card mb-2">
+          <div class="card-header" id="h1">
+            <h5 class="mb-0" class="btn" data-toggle="collapse" data-target="#c1" aria-expanded="true"
+              aria-controls="c1">Espaçamento, dimensões, borda, texto
+            </h5>
+          </div>
+
+          <div id="c1" class="collapse" aria-labelledby="h1" data-parent="#accordion">
+            <div class="card-body">
+              <p>
+                Permite um controle das dimensões dos elementos da página quanto a largura, altura, margens internas e
+                espaçamento entre componentes. Também é possível mudar característica de textos
+                <a target="_blank" href="./exemplos/exemplo-2.html">
+                  <img src="./imagens/showme-the-code.webp" lass="rounded img-fluid border float-left" width="30%"
+                    alt="showme-code">
+                </a>
+              </p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </main>
+
+  <aside class="navegacao-site">
+    <h1>Menu</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">HTML</a></li>
+        <li><a href="css.html">CSS</a>
+        <li><a href="javascript.html">Javascript</a>
+        <li><a href="conceitos.html">Conceitos</a></li>
+      </ul>
+    </nav>
+    <ul class="icones-redes-sociais">
+      <li>
+        <a href="https://github.com/swirfneblin" class="github" data-tooltip="Projetos Open Source">
+          Github
+        </a>
+      </li>
+      <li>
+        <a href="https://twitter.com/swirfneblin/" class="twitter" data-tooltip="Siga-me no Twitter">
+          Twitter
+        </a>
+      </li>
+      <li>
+        <a href="https://www.linkedin.com/in/charlesdamasceno/" class="linkedin" data-tooltip="Charles Damasceno">
+          LinkedIn
+        </a>
+      </li>
+    </ul>
+  </aside>
+
+  <footer class="rodape-pagina">
+    &copy; HTML, CSS e Javascript - 2021
+  </footer>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
